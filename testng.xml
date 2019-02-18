@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="selenium-beginner">
+	<test name="loginChrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.selenium.advanced.testcases.LoginTest" />
+		</classes>
+	</test>
+	<test name="loginFirefox">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.selenium.advanced.testcases.LoginTest" />
+		</classes>
+	</test>
+	<test name="loginSafari">
+		<parameter name="browser" value="safari" />
+		<classes>
+			<class name="com.selenium.advanced.testcases.LoginTest" />
+		</classes>
+	</test>
+	<test name="loginDefault">
+		<parameter name="browser" value="default" />
+		<classes>
+			<class name="com.selenium.advanced.testcases.LoginTest" />
+		</classes>
+	</test>
+</suite>

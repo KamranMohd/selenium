@@ -7,4 +7,6 @@ target/
 .project
 .settings/
 chromedriver
+geckodriver
+test-output/
 screenshots/
