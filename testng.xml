@@ -13,12 +13,12 @@
 			<class name="com.selenium.advanced.testcases.LoginTest" />
 		</classes>
 	</test>
-	<test name="loginSafari">
+	<!-- <test name="loginSafari">
 		<parameter name="browser" value="safari" />
 		<classes>
 			<class name="com.selenium.advanced.testcases.LoginTest" />
 		</classes>
-	</test>
+	</test> -->
 	<test name="loginDefault">
 		<parameter name="browser" value="default" />
 		<classes>
